@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acciones en Cypress</title>
+</head>
+<body>
+    <form id="user-form">
+        <label for="name" >
+            Nombre 
+            <input type="text" id="name">
+        </label> 
+        <label for="surname">
+            Apellidos 
+            <input type="text" id="surname">
+        </label> 
+        <br>
+        <label for ="email" >
+            Correo Electronico
+            <input type="text" id="email">
+        </label> 
+        <label for="birthdate" >
+            Fecha de Nacimiento
+            <input type="text" id="birthdate">
+        </label>
+        <br>
+        <button type="button" onclick="addUser()" id="aceptar">Aceptar</button>
+    </form> 
+    <p id="message"></p> 
+    <script src="./js/main.js"></script>
+</body>
+</html> 
